@@ -47,15 +47,14 @@ function App() {
       ]
     },
     {
-      title: 'Object detection for Cyclists',
-      description: 'A sleek, modern approach to solving complex business problems.',
+      title: 'Object Detection for Cyclists',
+      description: 'An intelligent real-time AI safety system engineered to support and protect cyclists by continuously monitoring their surroundings using computer vision. The system detects nearby objects such as vehicles and pedestrians, tracks their motion over time, and evaluates potential collision threats based on speed, distance, and positioning. By combining advanced object detection and multi-object tracking with spatial awareness, this project empowers cyclists with an extra layer of situational awareness — functioning like a virtual co-pilot that helps mitigate risk in dynamic urban environments.',
       image: '/odc.jpg',
-      details: 'Detailed information about Project Two. It showcases the modern UI/UX and innovative design.',
+      details: `This project combines object detection, multi-object tracking, and risk assessment to enhance situational awareness for cyclists. Built with Python and OpenCV, the system leverages the YOLOv8 model for real-time detection and DeepSORT for tracking multiple objects persistently across video frames. The application identifies common road objects (like cars and pedestrians), estimates their distance and speed using the pinhole camera model, and determines whether they're within a cyclist's immediate lane of travel. When a fast-moving object gets too close, the system issues an audible alert using a text-to-speech engine—creating a virtual safety co-pilot for urban cyclists.`,
       links: [
-        { label: 'GitHb', url: 'https://github.com/YourRepo' },
-        { label: 'Live Demo', url: 'https://yourdemo.com' }
+        { label: 'GitHub', url: 'https://github.com/ucey-star/AI-labs/tree/main/Cyclist_hazard_detector' },
       ]
-    },
+    },    
     {
       title: 'The 8-Puzzle',
       description: 'This project is an AI-driven solution to the classic 8-puzzle problem. The goal of the assignment was to implement an optimal solver using the A* search algorithm in Python. The 8-puzzle is a sliding tile game where eight numbered tiles and one empty space are arranged in a 3×3 grid. The challenge is to reach a predefined goal configuration by sliding tiles into the empty space, one move at a time.',
@@ -63,7 +62,7 @@ function App() {
       details: 'This project is an AI-driven solution to the classic 8-puzzle problem, which challenges you to arrange eight numbered tiles in a 3×3 grid into a specific goal configuration by sliding tiles into an empty space. In this project, I developed a robust A\* search-based solver using Python that efficiently finds the optimal sequence of moves by combining a custom-designed `PuzzleNode` class, multiple heuristic functions, and performance optimizations such as memoization. The `PuzzleNode` class encapsulates each state of the puzzle, tracking the current configuration, depth, evaluation value, and pointers to parent nodes to reconstruct the solution path. Two main heuristic functions were implemented—Misplaced Tiles and Manhattan Distance—to guide the search process, and an advanced heuristic extension was explored to further enhance efficiency by reducing unnecessary node expansions. The implementation also incorporates thorough error handling for invalid or unsolvable puzzles, ensuring that the algorithm gracefully terminates with appropriate error codes when necessary. Through extensive testing and validation, this project demonstrates not only the practical application of A\* search but also the importance of balancing algorithmic complexity with computational efficiency in solving challenging AI problems.',
       links: [
         { label: 'GitHb', url: 'https://github.com/YourRepo' },
-        { label: 'Live Demo', url: 'https://yourdemo.com' }
+        { label: 'paper', url: 'https://drive.google.com/file/d/1yCGlGTa6hjoe49ubaMs3cFpeOsDX_Xrb/view?usp=sharing' }
       ]
     },
     {
