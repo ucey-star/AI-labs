@@ -61,8 +61,8 @@ function App() {
       image: '/8puzzle.jpg',
       details: 'This project is an AI-driven solution to the classic 8-puzzle problem, which challenges you to arrange eight numbered tiles in a 3×3 grid into a specific goal configuration by sliding tiles into an empty space. In this project, I developed a robust A\* search-based solver using Python that efficiently finds the optimal sequence of moves by combining a custom-designed `PuzzleNode` class, multiple heuristic functions, and performance optimizations such as memoization. The `PuzzleNode` class encapsulates each state of the puzzle, tracking the current configuration, depth, evaluation value, and pointers to parent nodes to reconstruct the solution path. Two main heuristic functions were implemented—Misplaced Tiles and Manhattan Distance—to guide the search process, and an advanced heuristic extension was explored to further enhance efficiency by reducing unnecessary node expansions. The implementation also incorporates thorough error handling for invalid or unsolvable puzzles, ensuring that the algorithm gracefully terminates with appropriate error codes when necessary. Through extensive testing and validation, this project demonstrates not only the practical application of A\* search but also the importance of balancing algorithmic complexity with computational efficiency in solving challenging AI problems.',
       links: [
-        { label: 'GitHb', url: 'https://github.com/YourRepo' },
-        { label: 'paper', url: 'https://drive.google.com/file/d/1yCGlGTa6hjoe49ubaMs3cFpeOsDX_Xrb/view?usp=sharing' }
+        { label: 'GitHb', url: 'https://github.com/ucey-star/AI-labs/tree/main/8-puzzle/index' },
+        { label: 'paper', url: 'https://github.com/ucey-star/AI-labs/blob/main/8-puzzle/index/Assignment2.pdf' }
       ]
     },
     {
