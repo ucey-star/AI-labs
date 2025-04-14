@@ -1,0 +1,7 @@
+tempfile
+numpy
+pyswip
+tkinter
+nltk
+pylcs
+re
