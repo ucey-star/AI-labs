@@ -111,7 +111,7 @@ const Profile = () => (
           <h3>Minerva University</h3>
           <h4>Computational Sciences</h4>
           <p>
-            I am passionate about solving complex problems at the intersection of technology and creativity. My background in computational sciences drives me to explore innovative AI solutions and cutting-edge technologies.
+            I'm a software engineer with a strong foundation in computational sciences and a passion for building AI-driven solutions that blend creativity, data, and design. From intelligent voice assistants to real-time computer vision systems, I love crafting tools that make technology feel intuitive, useful, and human-centered.
           </p>
         </div>
       </div>

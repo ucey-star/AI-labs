@@ -80,8 +80,8 @@ function App() {
       image: 'tictactoe.jpg',
       details: "In this project, I implemented a dedicated class called TicTacToe_Minimax_Agent that integrates the minimax algorithm with critical enhancements such as alpha-beta pruning and iterative deepening, which significantly improved the search efficiency and decision-making process. I designed a heuristic evaluation function to score game states based on potential winning lines, guiding the AI to prioritize moves that increase its chances of winning. I rigorously tested the agent by simulating 100 games against a random opponent, which allowed me to measure its win rate and overall performance. Additionally, I developed functions to render the Tic Tac Toe board and accept human inputs, enabling interactive gameplay against the AI. I also extended the project by integrating a Tkinter-based GUI to create a more engaging user experience. Through this work, I gained valuable insights into algorithm optimization, heuristic design, and practical AI application in game development.",
       links: [
-        { label: 'GitHb', url: 'https://github.com/ucey-star/OneBank' },
-        { label: 'Live Demo', url: 'https://yourdemo.com' }
+        { label: 'GitHub', url: 'https://github.com/ucey-star/AI-labs/tree/main/minimax-tictactoe' },
+        { label: 'Paper', url: 'https://github.com/ucey-star/AI-labs/blob/main/minimax-tictactoe/TicTacToe%20-%20Assessing%20the%20Performance%20of%20a%20Minimax%20AI%20Agent.pdf' }
       ]
     },
     {
@@ -90,18 +90,18 @@ function App() {
       image: '/onebank.jpg',
       details: "The project includes a full-stack system built with Flask and React, backed by an AI recommendation engine that takes into account real-time context like merchant category and transaction amount. I implemented a rewards optimization algorithm that evaluates each card's benefits, including quarterly categories, custom reward structures, and socialized benefits added by the user. The browser extension integrates seamlessly into checkout pages and communicates with the backend to retrieve the best card for the situation. Beyond the extension, I developed APIs for card management, benefit editing, and transaction analysis, ensuring a robust and scalable platform. This project showcases my skills in AI logic, user interface design, backend development, and real-world deployment strategies.",
       links: [
-        { label: 'GitHub', url: 'https://github.com/YourRepo' },
-        { label: 'Live Demo', url: 'https://yourdemo.com' }
+        { label: 'GitHub', url: 'https://github.com/ucey-star/OneBank' },
+        { label: 'Live Demo', url: 'https://drive.google.com/file/d/1Dftkb7istX3CJzuwzL7RiVI8cVUNRAlN/view?usp=sharing' },
+        { label: 'Website', url: 'https://onebankapp.onrender.com' }
       ]
     },    
     {
       title: 'AI stock price prediction',
       description: "  I developed an AI agent to assess the performance of a Minimax AI in a 4x4 Tic Tac Toe game. The goal was to create a robust AI player capable of competing against both a computer-generated random opponent and a human player. By leveraging the minimax algorithm enhanced with alpha-beta pruning and iterative deepening, I tackled the challenge of efficiently exploring the game state space to determine the optimal moves. This project not only highlights my ability to implement advanced AI techniques but also demonstrates my commitment to evaluating and refining AI performance in competitive game scenarios.",
-      image: 'tictactoe.jpg',
+      image: 'stock-prediction.png',
       details: "In this project, I implemented a dedicated class called TicTacToe_Minimax_Agent that integrates the minimax algorithm with critical enhancements such as alpha-beta pruning and iterative deepening, which significantly improved the search efficiency and decision-making process. I designed a heuristic evaluation function to score game states based on potential winning lines, guiding the AI to prioritize moves that increase its chances of winning. I rigorously tested the agent by simulating 100 games against a random opponent, which allowed me to measure its win rate and overall performance. Additionally, I developed functions to render the Tic Tac Toe board and accept human inputs, enabling interactive gameplay against the AI. I also extended the project by integrating a Tkinter-based GUI to create a more engaging user experience. Through this work, I gained valuable insights into algorithm optimization, heuristic design, and practical AI application in game development.",
       links: [
-        { label: 'GitHb', url: 'https://github.com/YourRepo' },
-        { label: 'Live Demo', url: 'https://yourdemo.com' }
+        { label: 'GitHub', url: 'https://github.com/ucey-star/AI-labs/tree/main/AI_Stock_prediction' },
       ]
     },
   ];
@@ -433,6 +433,26 @@ function App() {
           animation: fadeIn 0.5s ease;
         }
 
+        .resume-pill {
+          display: inline-block;
+          margin-top: 1rem;
+          padding: 0.6rem 1.4rem;
+          background-color: #fff;
+          color: #b24592;
+          border-radius: 50px;
+          font-weight: 600;
+          font-size: 0.95rem;
+          text-decoration: none;
+          transition: background 0.3s, transform 0.2s;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .resume-pill:hover {
+          background-color: #f1f1f1;
+          transform: scale(1.05);
+        }
+
+
         .modal-content img {
           width: 100%;
           height: auto;
@@ -492,6 +512,15 @@ function App() {
         </p>
         <button onClick={handleViewMyWork}>View My Work</button>
         <button onClick={handleContactMe}>Contact Me</button>
+        <a
+          href="/Uchechukwu_Unanka_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-pill"
+        >
+          View Resume
+        </a>
+
       </section>
 
       <Profile /> 
@@ -521,6 +550,7 @@ function App() {
           artistry with cutting-edge tech to deliver exceptional results.
           Whether it's building interactive UIs or crafting memorable brand
           identities, I always strive for excellence and innovation.
+          You can also <a href="/Uchechukwu_Unanka_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{ color: "#fff", fontWeight: "bold", textDecoration: "underline" }}>view my resume here</a>.
         </p>
       </section>
 
