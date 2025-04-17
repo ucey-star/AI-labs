@@ -61,7 +61,7 @@ function App() {
       image: '/8puzzle.jpg',
       details: 'This project is an AI-driven solution to the classic 8-puzzle problem, which challenges you to arrange eight numbered tiles in a 3×3 grid into a specific goal configuration by sliding tiles into an empty space. In this project, I developed a robust search-based solver using Python that efficiently finds the optimal sequence of moves by combining a custom-designed `PuzzleNode` class, multiple heuristic functions, and performance optimizations such as memoization. The `PuzzleNode` class encapsulates each state of the puzzle, tracking the current configuration, depth, evaluation value, and pointers to parent nodes to reconstruct the solution path. Two main heuristic functions were implemented—Misplaced Tiles and Manhattan Distance—to guide the search process, and an advanced heuristic extension was explored to further enhance efficiency by reducing unnecessary node expansions. The implementation also incorporates thorough error handling for invalid or unsolvable puzzles, ensuring that the algorithm gracefully terminates with appropriate error codes when necessary. Through extensive testing and validation, this project demonstrates not only the practical application of A search but also the importance of balancing algorithmic complexity with computational efficiency in solving challenging AI problems.',
       links: [
-        { label: 'GitHub', url: 'https://github.com/ucey-star/AI-labs/tree/main/8-puzzle/index' },
+        { label: 'GitHub', url: 'https://github.com/ucey-star/AI-labs/tree/main/8-puzzle' },
       ]
     },
     {
@@ -70,7 +70,7 @@ function App() {
       image: 'esd.jpg',
       details: "In this project, I focused on developing and integrating the core components of our expert system. I contributed to the Prolog knowledge base, which stores detailed information about various locations in Taipei, and I helped build the Python interface that processes user inputs and queries the knowledge base. The system begins by confirming that the user is in Taipei, then asks about their primary intention—whether they want to shop, learn, or relax. Based on the user's responses, the system dynamically filters through a curated list of locations, taking into account attributes such as price range, entrance fees, ambiance, and setting. I also implemented several extensions, including a menu-based interface that improves input accuracy by correcting typos and mapping ambiguous responses to the correct options. Rigorous testing ensured that the system not only meets the project requirements but also delivers an intuitive and efficient experience for users exploring Taipei.",
       links: [
-        { label: 'GitHb', url: 'https://github.com/ucey-star/AI-labs/tree/main/expert-system' },
+        { label: 'GitHub', url: 'https://github.com/ucey-star/AI-labs/tree/main/expert-system' },
         { label: 'Notebook', url: 'https://github.com/ucey-star/AI-labs/blob/main/expert-system/CS152%20LBA%20-%20Trinh%2C%20Uche%2C%20Andriy%202/CS152%20LBA%20-%20Jupyter%20Notebook%20-%20Trinh%2C%20Uche%2C%20Andriy.ipynb' }
       ]
     },

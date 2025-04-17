@@ -1,5 +1,3 @@
----
-
 # 🎮 4x4 Tic Tac Toe AI with Minimax & GUI
 
 This project features a smart **Tic Tac Toe AI agent** that plays optimally on a **4x4 grid** using the **Minimax algorithm** with **alpha-beta pruning** and **heuristic evaluation**. It includes:
