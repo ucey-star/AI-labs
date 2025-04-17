@@ -43,7 +43,7 @@ function App() {
       details: `Clark is an end-to-end intelligent voice assistant built using React, Flask, and OpenAI's GPT-4. It integrates with Google Calendar and Gmail APIs to manage emails and schedule events through natural language commands. Powered by Google's Text-to-Speech, Clark also provides real-time audio responses. The assistant supports wake word detection ("Hey Clark") and transitions into voice command mode, allowing users to interact hands-free. The project showcases expertise in full-stack development, natural language processing, voice UX, and third-party API integrations.`,
       links: [
         { label: 'GitHub', url: 'https://github.com/ucey-star/clark' },
-        { label: 'Live Demo', url: 'https://drive.google.com/file/d/1ogM36E6G0Wy1xMyeycyps2FVG9VeRrZx/view?usp=sharing' }
+        { label: 'Demo', url: 'https://drive.google.com/file/d/1ogM36E6G0Wy1xMyeycyps2FVG9VeRrZx/view?usp=sharing' }
       ]
     },
     {
@@ -61,7 +61,7 @@ function App() {
       image: '/8puzzle.jpg',
       details: 'This project is an AI-driven solution to the classic 8-puzzle problem, which challenges you to arrange eight numbered tiles in a 3×3 grid into a specific goal configuration by sliding tiles into an empty space. In this project, I developed a robust search-based solver using Python that efficiently finds the optimal sequence of moves by combining a custom-designed `PuzzleNode` class, multiple heuristic functions, and performance optimizations such as memoization. The `PuzzleNode` class encapsulates each state of the puzzle, tracking the current configuration, depth, evaluation value, and pointers to parent nodes to reconstruct the solution path. Two main heuristic functions were implemented—Misplaced Tiles and Manhattan Distance—to guide the search process, and an advanced heuristic extension was explored to further enhance efficiency by reducing unnecessary node expansions. The implementation also incorporates thorough error handling for invalid or unsolvable puzzles, ensuring that the algorithm gracefully terminates with appropriate error codes when necessary. Through extensive testing and validation, this project demonstrates not only the practical application of A search but also the importance of balancing algorithmic complexity with computational efficiency in solving challenging AI problems.',
       links: [
-        { label: 'GitHb', url: 'https://github.com/ucey-star/AI-labs/tree/main/8-puzzle/index' },
+        { label: 'GitHub', url: 'https://github.com/ucey-star/AI-labs/tree/main/8-puzzle/index' },
       ]
     },
     {
@@ -91,7 +91,7 @@ function App() {
       details: "The project includes a full-stack system built with Flask and React, backed by an AI recommendation engine that takes into account real-time context like merchant category and transaction amount. I implemented a rewards optimization algorithm that evaluates each card's benefits, including quarterly categories, custom reward structures, and socialized benefits added by the user. The browser extension integrates seamlessly into checkout pages and communicates with the backend to retrieve the best card for the situation. Beyond the extension, I developed APIs for card management, benefit editing, and transaction analysis, ensuring a robust and scalable platform. This project showcases my skills in AI logic, user interface design, backend development, and real-world deployment strategies.",
       links: [
         { label: 'GitHub', url: 'https://github.com/ucey-star/OneBank' },
-        { label: 'Live Demo', url: 'https://drive.google.com/file/d/1Dftkb7istX3CJzuwzL7RiVI8cVUNRAlN/view?usp=sharing' },
+        { label: 'Demo', url: 'https://drive.google.com/file/d/1Dftkb7istX3CJzuwzL7RiVI8cVUNRAlN/view?usp=sharing' },
         { label: 'Website', url: 'https://onebankapp.onrender.com' }
       ]
     },    
@@ -104,6 +104,16 @@ function App() {
         { label: 'GitHub', url: 'https://github.com/ucey-star/AI-labs/tree/main/AI_Stock_prediction' },
       ]
     },
+    {
+      title: 'Accentify',
+      description: 'Accentify is an ongoing AI project aimed at identifying different English accents using speech input. While still under development, it explores accent classification using machine learning models trained on diverse voice datasets.',
+      image: 'accentify.png',
+      details: "Accentify is a project focused on accent recognition through audio processing. The system leverages Python and machine learning libraries to extract features from voice samples and classify them by regional accent (e.g., Nigerian, American, British). Though still in progress, early versions use MFCC feature extraction and supervised learning models for training. Challenges remain in model accuracy due to overlapping phonetic patterns across accents, and ongoing work involves refining the dataset, optimizing the preprocessing pipeline, and exploring deep learning techniques to improve performance. This project reflects an active engagement with speech recognition, fairness in AI, and real-world language diversity.",
+      links: [
+        { label: 'GitHub', url: 'https://github.com/ucey-star/Accentify' },
+      ]
+    }
+    
   ];
 
   return (
